@@ -1,5 +1,5 @@
 //llamada al backend
-const API = "api/inv.php";
+const API = "https://inv-ferreteriagonzalez.xo.je/api/inv.php";
 
 async function api(action, extra = {}) {
     const res = await fetch(API, {
@@ -136,4 +136,5 @@ async function buscar() {
         alert("No existe un registro con ese ID.");
     }
 }
+
 cargarTabla();
