@@ -1,5 +1,5 @@
 //llamada al backend
-const API = "https://inv-ferreteriagonzalez.xo.je/api/inv.php";
+const API = "https://inv-ferreteriarodriguez.atwebpages.com/api/inv.php";
 
 async function api(action, extra = {}) {
     const res = await fetch(API, {
@@ -138,3 +138,4 @@ async function buscar() {
 }
 
 cargarTabla();
+
